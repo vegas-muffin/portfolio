@@ -146,6 +146,9 @@ td {
   text-decoration-line: underline;
 }
 /* Summary */
+.summary p {
+  padding-left: 10px;
+}
 /* Skills */
 .skills__style {
   background-color: #eee;
@@ -195,6 +198,8 @@ td {
   text-align: left;
 }
 /* Education */
+
+.portfolio__style,
 .education__style {
   background-color: #eee;
   color: #555;
@@ -202,6 +207,8 @@ td {
   padding: 0;
   text-align: left;
 }
+
+.portfolio__style li,
 .education__style li {
   padding: 10px;
   border-bottom: 1px solid #fff;
@@ -209,10 +216,12 @@ td {
   text-align: left;
 }
 
+.portfolio__link,
 .education__link {
   color: #555;
 }
 
+.portfolio__link:hover,
 .education__link:hover {
   color: #000;
   text-decoration: none;
