@@ -71,8 +71,13 @@ body {
 .main__avatar {
   height: 420px;
   float: left;
-  padding: 30px;
+  padding: 30px 30px 0 30px;
 }
+
+.main__title-resume {
+  text-align: center;
+}
+
 .main__title,
 .contact__title,
 .summary__title,
@@ -83,7 +88,15 @@ body {
 .english__title,
 .portfolio__title {
   padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
+.summary__title_width {
+  width: 100%;
+}
+
 .contact__table,
 th,
 td {
@@ -145,10 +158,19 @@ td {
 .contact__table_color-s:hover {
   text-decoration-line: underline;
 }
-/* Summary */
-.summary p {
-  padding-left: 10px;
+
+/* English */
+.english__text {
+  background-color: #f7c08a;
+  padding: 10px;
 }
+/* Summary */
+
+.summary__text {
+  background-color: #eee;
+  padding: 10px;
+}
+
 /* Skills */
 .skills__style {
   background-color: #eee;
@@ -158,14 +180,27 @@ td {
   text-align: left;
 }
 .skills__style li {
-  padding: 10px;
+  padding-left: 10px;
   border-bottom: 1px solid #fff;
   list-style-type: none;
   text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .skills__style li:nth-child(odd) {
   background-color: #444;
   color: #fff;
+}
+
+.skills__img {
+  height: 36px;
+  margin: 10px;
+}
+
+.skills__img_webpack {
+  height: 42px;
+  margin: 10px;
 }
 /* Code Examples */
 .code__example {
@@ -249,11 +284,29 @@ td {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+
 .footer__up a {
   text-decoration: none;
   color: #f7c08a;
   font-weight: bold;
+  transition: all 0.5s;
 }
+
+.footer__up a:hover {
+  color: #fff;
+}
+
+.up a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+.up a:hover {
+  color: #f7c08a;
+}
+
 /* Media Query */
 @media (min-width: 746px) and (max-width: 950px) {
   .header__navbar {
@@ -317,6 +370,7 @@ td {
     text-align: center;
   }
 }
+
 @media (max-width: 664px) {
   .main__avatar {
     float: none;
@@ -329,7 +383,8 @@ td {
 }
 @media (max-width: 500px) {
   .code__example {
-    padding: 5px;
+    padding-left: 30px;
+
     font-size: 85%;
   }
 }

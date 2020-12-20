@@ -49,17 +49,21 @@
     <main class="main">
       <div class="container">
         <!-- Contact Info -->
+        <h1 class="main__title-resume">Web Developer Resume / Portfolio</h1>
+
         <div id="contact" class="contact">
           <img
             class="main__avatar"
             src="https://i.ibb.co/VgDQLrr/avatar.jpg"
             alt="avatar"
           />
-          <h1 class="main__title-resume">Web Developer Resume / Portfolio</h1>
           <h2 class="main__title">Vagiz Mussin</h2>
-          <h2 class="contact__title">
-            <i class="fas fa-id-card-alt fa-color"></i> Contact Info
-          </h2>
+          <div class="contact__title">
+            <h2 class="">
+              <i class="fas fa-id-card-alt fa-color"></i> Contact Info
+            </h2>
+          </div>
+
           <table class="contact__table">
             <tr>
               <th>social media</th>
@@ -113,48 +117,119 @@
         </div>
         <!-- Summary -->
         <div id="summary" class="summary">
-          <h2 class="summary__title">
-            <i class="fas fa-signal fa-color"></i> Summary
-          </h2>
-          <p>
+          <div class="summary__title summary__title_width">
+            <h2><i class="fas fa-signal fa-color"></i> Summary</h2>
+          </div>
+
+          <p class="summary__text">
             In five years, I’d like to be a true proffessional web developer
             with successful end-to-end project management experience.
           </p>
         </div>
         <!-- English -->
         <div id="english" class="english">
-          <h2 class="english__title">
-            <i class="fas fa-globe fa-color"></i> English
-          </h2>
-          <p>Pre-Intermediate A2</p>
+          <div class="english__title">
+            <h2 class=""><i class="fas fa-globe fa-color"></i> English</h2>
+            <span class="up"
+              ><a href="#up">Up&#128070;</a></span
+            >
+          </div>
+          <p class="english__text">Pre-Intermediate A2+</p>
         </div>
         <!-- Skills -->
         <div class="skills" id="skills">
-          <h2 class="skills__title">
-            <i class="fas fa-brain fa-color"></i> Skills
-          </h2>
+          <div class="skills__title">
+            <h2><i class="fas fa-brain fa-color"></i> Skills</h2>
+            <span class="up"
+              ><a href="#up">Up&#128070;</a></span
+            >
+          </div>
+
           <ul class="skills__style">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>SCSS/SASS</li>
-            <li>JavaScript <em>(Basic)</em></li>
-            <li>pascal</li>
-            <li>OOP Delphi</li>
-            <li>Bootstrap</li>
-            <li>BEM</li>
-            <li>Adaptive / Mobile First</li>
             <li>
-              VS Code, Sublime Text 3, Figma, Photoshop (Basic), CorelDraw
-              (Basic), Avocode
+              <img class="skills__img" src="./img/html.png" alt="html5" />HTML5
             </li>
-            <li>Touch typing</li>
+            <li>
+              <img class="skills__img" src="./img/css.png" alt="CSS3" />CSS3
+            </li>
+            <li>
+              <img
+                class="skills__img"
+                src="./img/javascript.png"
+                alt="JavaScript"
+              />JavaScript
+            </li>
+            <li>
+              <img
+                class="skills__img_webpack"
+                src="./img/webpack.png"
+                alt="Webpack"
+              />
+            </li>
+            <li>
+              <img class="skills__img" src="./img/gulp.png" alt="Gulp" />Gulp
+            </li>
+            <li>
+              <img
+                class="skills__img"
+                src="./img/sass.png"
+                alt="SCSS"
+              />SCSS/SASS
+            </li>
+            <li>
+              <img
+                class="skills__img"
+                src="./img/bootstrap.png"
+                alt="Bootstrap"
+              />Bootstrap
+            </li>
+            <li>
+              <img class="skills__img" src="./img/bem.png" alt="BEM" />BEM
+            </li>
+            <li>
+              <img
+                class="skills__img"
+                src="./img/graphic-editor.png"
+                alt="Adaptive"
+              />Adaptive / Mobile First
+            </li>
+            <li>
+              <img
+                class="skills__img"
+                src="./img/visual-studio-code.png"
+                alt="vscode"
+              />VS Code
+            </li>
+            <li>
+              <img class="skills__img" src="./img/figma.svg" alt="Figma" />Figma
+            </li>
+            <li>
+              <img
+                class="skills__img"
+                src="/img/photoshop.svg"
+                alt="Photoshop"
+              />Photoshop
+            </li>
+            <li>
+              <img
+                class="skills__img"
+                src="./img/typing.png"
+                alt="Typing"
+              />Touch typing
+            </li>
           </ul>
         </div>
         <!-- Portfolio -->
         <div class="portfolio">
-          <h2 class="portfolio__title">
-            <i class="fas fa-sitemap fa-color"></i> Portfolio
-          </h2>
+          <div class="portfolio__title">
+            <h2>
+              <i class="fas fa-sitemap fa-color"></i> Portfolio & Pet Projects
+            </h2>
+            <span class="up"
+              ><a href="#up">Up&#128070;</a></span
+            >
+          </div>
+
           <ul class="portfolio__style">
             <li class="portfolio__item">
               Calculator Pet-project -
@@ -176,9 +251,13 @@
         </div>
         <!-- Code Examples -->
         <div id="code" class="code">
-          <h2 class="code__title">
-            <i class="fas fa-file-code fa-color"></i> Code Examples
-          </h2>
+          <div class="code__title">
+            <h2><i class="fas fa-file-code fa-color"></i> Code Examples</h2>
+            <span class="up"
+              ><a href="#up">Up&#128070;</a></span
+            >
+          </div>
+
           <div class="code__example">
             <code class="code__style">
               <strong>links:</strong>
@@ -248,9 +327,13 @@
         </div>
         <!-- Experience -->
         <div id="experience" class="experience">
-          <h2 class="experience__title">
-            <i class="fas fa-briefcase fa-color"></i> Experience
-          </h2>
+          <div class="experience__title">
+            <h2><i class="fas fa-briefcase fa-color"></i> Experience</h2>
+            <span class="up"
+              ><a href="#up">Up&#128070;</a></span
+            >
+          </div>
+
           <ul class="experience__style">
             <li>Systems Administrator [7 year working experience]</li>
             <li>Computer Science Teacher [3 year working experience]</li>
@@ -258,9 +341,13 @@
         </div>
         <!-- Education -->
         <div id="education" class="education">
-          <h2 class="education__title">
-            <i class="fas fa-graduation-cap fa-color"></i> Education
-          </h2>
+          <div class="education__title">
+            <h2><i class="fas fa-graduation-cap fa-color"></i> Education</h2>
+            <span class="up"
+              ><a href="#up">Up&#128070;</a></span
+            >
+          </div>
+
           <ul class="education__style">
             <li class="education__item">
               <i class="fas fa-link"></i> Responsive Web Design
@@ -294,7 +381,7 @@
       <div class="container">
         <div class="footer__inner">
           <span class="footer__up"
-            ><a href="#up"><i class="fas fa-angle-up"></i> Up</a></span
+            ><a class="footer__link" href="#up"><i class="fas fa-angle-up"></i> Up</a></span
           >
           <span class="copyright">&copy 2020 Vagiz Mussin</span>
         </div>
