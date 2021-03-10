@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="styles/style.css" /> -->
     <title>Curriculum vitae</title>
     <script
       src="https://kit.fontawesome.com/a2fa360e5c.js"
@@ -23,11 +23,12 @@
               <li class="header__item">
                 <a class="header__link" href="#contact">Contact Info</a>
               </li>
-              <li class="header__item">
-                <a class="header__link" href="#summary">Summary</a>
-              </li>
+
               <li class="header__item">
                 <a class="header__link" href="#skills">Skills</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#portfolio">Portfolio</a>
               </li>
               <li class="header__item">
                 <a class="header__link" href="#code">Code examples</a>
@@ -79,18 +80,7 @@
                 >
               </td>
             </tr>
-            <tr>
-              <td class="contact__table_font">
-                <i class="fab fa-whatsapp"></i> WhatsApp
-              </td>
-              <td>
-                <a
-                  class="contact__table_color-wa"
-                  href="https://wa.me/77715264644"
-                  >wa.me</a
-                >
-              </td>
-            </tr>
+
             <tr>
               <td class="contact__table_font">
                 <i class="fas fa-at"></i> E-mail
@@ -113,26 +103,84 @@
                 >
               </td>
             </tr>
+            <tr>
+              <td class="contact__table_font">
+                <i class="fab fa-github"></i> github
+              </td>
+              <td>
+                <a
+                  class="contact__table_color-m"
+                  href="https://github.com/vegas-muffin"
+                  >https://github.com/vegas-muffin</a
+                >
+              </td>
+            </tr>
           </table>
         </div>
-        <!-- Summary -->
-        <div id="summary" class="summary">
-          <div class="summary__title summary__title_width">
-            <h2><i class="fas fa-signal fa-color"></i> Summary</h2>
-          </div>
 
-          <p class="summary__text">
-            In five years, I’d like to be a true proffessional web developer
-            with successful end-to-end project management experience.
-          </p>
-        </div>
         <!-- English -->
         <div id="english" class="english">
           <div class="english__title">
             <h2 class=""><i class="fas fa-globe fa-color"></i> English</h2>
-            <span class="up"><a href="#up">Up&#128070;</a></span>
           </div>
           <p class="english__text">Pre-Intermediate A2+</p>
+        </div>
+        <!-- Portfolio -->
+        <div id="portfolio" class="portfolio">
+          <div class="portfolio__title">
+            <h2>
+              <i class="fas fa-sitemap fa-color"></i> Portfolio & Pet Projects
+            </h2>
+            <span class="up"><a href="#up">Up&#128070;</a></span>
+          </div>
+
+          <ul class="portfolio__style">
+            <li class="portfolio__item">
+              Covid2019 App Pet-Team Project -
+              <a
+                class="portfolio__link"
+                href="https://vegas-muffin.github.io/covid19/dist/"
+                >vegas-muffin.github.io/covid19/dist/</a
+              >
+              Stack - HTML/CSS/JS/Bootstrap/Webpack/SCSS
+            </li>
+            <li class="portfolio__item">
+              Shelter-site Pet-project -
+              <a
+                class="portfolio__link"
+                href="https://vegas-muffin.github.io/shelter/pages/main/index.html"
+                >vegas-muffin.github.io/shelter/</a
+              >
+              Stack - HTML/CSS/JS
+            </li>
+            <li class="portfolio__item">
+              English-Cards Pet-project -
+              <a
+                class="portfolio__link"
+                href="https://vegas-muffin.github.io/english-cards/english-cards/dist/"
+                >vegas-muffin.github.io/english-cards/</a
+              >
+              Stack - HTML/CSS/JS
+            </li>
+            <li class="portfolio__item">
+              Calculator Pet-project -
+              <a
+                class="portfolio__link"
+                href="https://vegas-muffin.github.io/calculator/"
+                >vegas-muffin.github.io/calculator/</a
+              >
+              Stack - HTML/CSS/JS
+            </li>
+            <li class="portfolio__item">
+              Weather Pet-project -
+              <a
+                class="portfolio__link"
+                href="https://vegas-muffin.github.io/weather/"
+                >vegas-muffin.github.io/weather/</a
+              >
+              Stack - HTML/CSS/JS
+            </li>
+          </ul>
         </div>
         <!-- Skills -->
         <div class="skills" id="skills">
@@ -215,47 +263,44 @@
             </li>
           </ul>
         </div>
-        <!-- Portfolio -->
-        <div class="portfolio">
-          <div class="portfolio__title">
-            <h2>
-              <i class="fas fa-sitemap fa-color"></i> Portfolio & Pet Projects
-            </h2>
+        <!-- Education -->
+        <div id="education" class="education">
+          <div class="education__title">
+            <h2><i class="fas fa-graduation-cap fa-color"></i> Education</h2>
             <span class="up"><a href="#up">Up&#128070;</a></span>
           </div>
 
-          <ul class="portfolio__style">
-            <li class="portfolio__item">
-              Shelter-site Pet-project -
+          <ul class="education__style">
+            <li class="education__item">
+              <i class="fas fa-book"></i>
+              <a class="education__link" href="https://rs.school/"
+                >The Rolling Scopes School</a
+              >
+              -
               <a
-                class="portfolio__link"
-                href="https://vegas-muffin.github.io/shelter/pages/main/index.html"
-                >https://vegas-muffin.github.io/shelter/</a
+                class="education__link"
+                href="https://app.rs.school/certificate/gfvhpeh8"
+                >Certificate</a
               >
             </li>
-            <li class="portfolio__item">
-              English-Cards Pet-project -
-              <a
-                class="portfolio__link"
-                href="https://vegas-muffin.github.io/english-cards/english-cards/dist/"
-                >https://vegas-muffin.github.io/english-cards/</a
+            <li class="education__item">
+              <i class="fas fa-link"></i> Responsive Web Design
+              <a class="education__link" href="https://www.freecodecamp.org/"
+                >freecodecamp.org</a
               >
             </li>
-            <li class="portfolio__item">
-              Calculator Pet-project -
-              <a
-                class="portfolio__link"
-                href="https://vegas-muffin.github.io/calculator/"
-                >vegas-muffin.github.io/calculator/</a
+            <li class="education__item">
+              <i class="fas fa-link"></i>
+              <a class="education__link" href="https://code-basics.com/"
+                >Code Basics Lessons</a
               >
             </li>
-            <li class="portfolio__item">
-              Weather Pet-project -
-              <a
-                class="portfolio__link"
-                href="https://vegas-muffin.github.io/weather/"
-                >vegas-muffin.github.io/weather/</a
-              >
+
+            <li class="education__item">
+              <i class="fab fa-youtube"></i> Traversy Media Youtube chanel
+            </li>
+            <li class="education__item">
+              <i class="fas fa-user-graduate"></i> Bachelor of Computer Science
             </li>
           </ul>
         </div>
@@ -345,39 +390,17 @@
             <li>Computer Science Teacher [3 year working experience]</li>
           </ul>
         </div>
-        <!-- Education -->
-        <div id="education" class="education">
-          <div class="education__title">
-            <h2><i class="fas fa-graduation-cap fa-color"></i> Education</h2>
+        <!-- Summary -->
+        <div id="summary" class="summary">
+          <div class="summary__title summary__title_width">
+            <h2><i class="fas fa-signal fa-color"></i> Summary</h2>
             <span class="up"><a href="#up">Up&#128070;</a></span>
           </div>
 
-          <ul class="education__style">
-            <li class="education__item">
-              <i class="fas fa-link"></i> Responsive Web Design
-              <a class="education__link" href="https://www.freecodecamp.org/"
-                >freecodecamp.org</a
-              >
-            </li>
-            <li class="education__item">
-              <i class="fas fa-link"></i>
-              <a class="education__link" href="https://code-basics.com/"
-                >Code Basics Lessons</a
-              >
-            </li>
-            <li class="education__item">
-              <i class="fas fa-book"></i>
-              <a class="education__link" href="https://rs.school/"
-                >The Rolling Scopes School</a
-              >
-            </li>
-            <li class="education__item">
-              <i class="fab fa-youtube"></i> Traversy Media Youtube chanel
-            </li>
-            <li class="education__item">
-              <i class="fas fa-user-graduate"></i> Bachelor of Computer Science
-            </li>
-          </ul>
+          <p class="summary__text">
+            In five years, I’d like to be a true proffessional web developer
+            with successful end-to-end project management experience.
+          </p>
         </div>
       </div>
     </main>
@@ -393,5 +416,63 @@
         </div>
       </div>
     </footer>
+    <!-- <footer className="bg-dark text-center text-lg-start" >
+      <div className="container p-4" style={{fontFamily:`${this.state.font.value}`}}>
+        <div className="row">
+          <div className="col-lg-6 col-md-12 mb-4 mb-md-0" >
+            <h5 className="text-uppercase yellow-text">
+              {" "}
+              The Rolling Scopes School
+            </h5>
+            <p className="text-white">
+              {i18next.t("FreeCourse")}{" "}
+              <a
+                className="footer__link"
+                target="_blank"
+                href="https://rs.school/js/"
+              >
+                rs.school/js
+              </a>
+            </p>
+          </div>
+
+          <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 className="text-uppercase"></h5>
+            <div>
+              <img className="footer__image" src={rsschool}></img>
+            </div>
+          </div>
+
+          <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 className="text-uppercase mb-0 yellow-text">
+              {i18next.t("Developed")}
+            </h5>
+
+            <ul className="list-unstyled">
+              <li>
+                <a className="" href="https://github.com/YuPashintseva">
+                  YuPashintseva
+                </a>
+              </li>
+              <li>
+                <a className="" href="https://github.com/anatkig">
+                  anatkig
+                </a>
+              </li>
+              <li>
+                <a className="" href="https://github.com/vegas-muffin">
+                  vegas-muffin
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="text-center p-3 text-white">
+        {" "}
+        &copy; 2021 {i18next.t("Copyright")} IMDb-clone
+      </div>
+    </footer> -->
   </body>
 </html>
